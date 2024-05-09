@@ -1,16 +1,6 @@
-# my_first_app
-
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Esta aplicación muestra al usuario que tipo de ingeniero biomédico es 
+El código fue extraido del repositorio del profesor Rafael Pérez
+las modificaciones se realizaron a la sección de assets donde las imágenes de los dados 
+fueron reemplazadas por 4 imágenes de ingeniería biomédica, posteriormente en lib, en la sección 
+de dice_roller.dart se modifico la cantidad para el randomizer a 4, 
+y en "child" se modifico el texto para relizar la pregunta "¿Qué biomédico eres?".
