@@ -20,7 +20,7 @@ class _DiceRollerState extends State<DiceRoller> {
 
   void rollDice() {
     setState(() {
-      currentDiceRoll = randomizer.nextInt(6) + 1; // Value between 1 and 6
+      currentDiceRoll = randomizer.nextInt(4) + 1; // Value between 1 and 6
     });
     // print('Changing image...');
   }
@@ -46,7 +46,7 @@ class _DiceRollerState extends State<DiceRoller> {
                   ),
                 ),
                 child: const Text(
-                  'Roll Dice',
+                  '¿Qué biomédico eres?',
                   style: TextStyle(color: Colors.white),
                 ))
           ],
